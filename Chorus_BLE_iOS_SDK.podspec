@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://shashank-TSM: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@github.com/shashank-TSM/Chorus_BLE_iOS_SDK.git", :tag => '0.0.1' }
 
-  spec.vendored_frameworks  = "Framework/Chorus_BLE_iOS_SDK.xcframework"
+  spec.vendored_frameworks  = "Chorus_BLE_iOS_SDK.xcframework"
 
   spec.frameworks = [ "Foundation", "CoreLocation", "CoreBluetooth", "UIkit" ]
   spec.swift_version = '5.0'
