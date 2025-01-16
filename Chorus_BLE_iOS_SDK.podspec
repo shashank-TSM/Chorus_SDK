@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://shashank-TSM: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@github.com/shashank-TSM/Chorus_BLE_iOS_SDK.git", :tag => '0.0.1' }
 
-  spec.vendored_frameworks  = 'Framework/Chorus_BLE_iOS_SDK.xcframework'
-  # spec.vendored_frameworks  = '**/*.xcframework' 
+  #spec.vendored_frameworks  = 'Framework/Chorus_BLE_iOS_SDK.framework'
+  spec.vendored_frameworks  = '**/*.framework' 
   spec.frameworks = [ "Foundation", "CoreLocation", "CoreBluetooth", "UIkit" ]
   spec.swift_version = '5.0'
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
