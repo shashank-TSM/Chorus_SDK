@@ -4,13 +4,13 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "SDK for Chorus BLE device"
   spec.description  = "Chorus Bluetooth device sdk for iOS application"
-  spec.homepage     = "https://shashank-TSM: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@github.com/shashank-TSM/Chorus_sdk"
+  spec.homepage     = "https://github.com/shashank-TSM/Chorus_sdk"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "shashank-TSM" => "shashank.gupta@stackmentalist.com" }
   spec.platform     = :ios, "16.0"
  
   spec.source       = { 
-    :git => "https://shashank-TSM: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@github.com/shashank-TSM/Chorus_sdk/Chorus_sdk.xcframework.zip", 
+    :git => "https://github.com/shashank-TSM/Chorus_sdk.git", 
     :tag => spec.version.to_s 
   }
  
