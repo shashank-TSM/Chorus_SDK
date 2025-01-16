@@ -1,0 +1,6 @@
+framework module Chorus_BLE_SDK {
+  umbrella header "Chorus_BLE_SDK.h"
+  export *
+
+  module * { export * }
+}
