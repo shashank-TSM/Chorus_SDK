@@ -1,6 +1,0 @@
-framework module Chorus_SDK {
-  umbrella header "Chorus_SDK.h"
-  export *
-
-  module * { export * }
-}

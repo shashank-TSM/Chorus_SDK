@@ -3,13 +3,13 @@
 // swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Chorus_SDK
 @_exported import Chorus_SDK
 import CoreBluetooth
-import CoreLocation
 import Foundation
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct BLEDevice : Swift.Identifiable, Swift.Hashable {
+public struct DeviceStruct : Swift.Identifiable, Swift.Hashable {
   public let id: Foundation.UUID
   public let name: Swift.String
   public let mac: Swift.String
@@ -21,17 +21,18 @@ public struct BLEDevice : Swift.Identifiable, Swift.Hashable {
   public let timestamp: Swift.String
   public init(name: Swift.String, mac: Swift.String, rssi: Swift.Int, payload: Swift.String, uuid: Swift.String, timestamp: Swift.String, longitude: Swift.String?, latitude: Swift.String?)
   public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: Chorus_SDK.BLEDevice, b: Chorus_SDK.BLEDevice) -> Swift.Bool
+  public static func == (a: Chorus_SDK.DeviceStruct, b: Chorus_SDK.DeviceStruct) -> Swift.Bool
   public typealias ID = Foundation.UUID
   public var hashValue: Swift.Int {
     get
   }
 }
-public class BLESDK {
+public class SdkInitializer {
   public init()
   public func setOrgId(_ id: Swift.String)
-  public func startScanning(scanForDuration: Foundation.TimeInterval, pauseInterval: Foundation.TimeInterval)
-  public func stopScanning()
-  public func getDiscoveredDevices() -> [Chorus_SDK.BLEDevice]
+  public func startBackgroundScanning(scanForDuration: Foundation.TimeInterval? = nil, pauseInterval: Foundation.TimeInterval? = nil)
+  public func disableBackGroundScanning()
+  public func getDiscoveredDevices() -> [Chorus_SDK.DeviceStruct]
+  public func sendPayloadToEndpoint(endPointUrl: Swift.String = "https://api-dev.chorussystems.net/v1alpha1/payloads", metaType: Swift.Int = 2, metaVersion: Swift.String = "1.1.12.0")
   @objc deinit
 }
