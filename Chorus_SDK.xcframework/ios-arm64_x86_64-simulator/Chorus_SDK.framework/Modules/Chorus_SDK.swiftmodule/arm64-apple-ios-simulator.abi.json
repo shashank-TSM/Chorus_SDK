@@ -1,0 +1,1124 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Chorus_SDK",
+    "printedName": "Chorus_SDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "Chorus_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chorus_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Chorus_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chorus_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceStruct",
+        "printedName": "DeviceStruct",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV2id10Foundation4UUIDVvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV2id10Foundation4UUIDVvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV2id10Foundation4UUIDVvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV2id10Foundation4UUIDVvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV4nameSSvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV4nameSSvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV4nameSSvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV4nameSSvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mac",
+            "printedName": "mac",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV3macSSvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV3macSSvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV3macSSvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV3macSSvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssi",
+            "printedName": "rssi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV4rssiSivp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV4rssiSivp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV4rssiSivg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV4rssiSivg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV7payloadSSvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV7payloadSSvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV7payloadSSvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV7payloadSSvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV9longitudeSSSgvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV9longitudeSSSgvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV9longitudeSSSgvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV9longitudeSSSgvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV9longitudeSSSgvs",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV9longitudeSSSgvs",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV9longitudeSSSgvM",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV9longitudeSSSgvM",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV8latitudeSSSgvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV8latitudeSSSgvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV8latitudeSSSgvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV8latitudeSSSgvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV8latitudeSSSgvs",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV8latitudeSSSgvs",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV8latitudeSSSgvM",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV8latitudeSSSgvM",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uuid",
+            "printedName": "uuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV4uuidSSvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV4uuidSSvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV4uuidSSvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV4uuidSSvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV9timestampSSvp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV9timestampSSvp",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV9timestampSSvg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV9timestampSSvg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:mac:rssi:payload:uuid:timestamp:longitude:latitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceStruct",
+                "printedName": "Chorus_SDK.DeviceStruct",
+                "usr": "s:10Chorus_SDK12DeviceStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Chorus_SDK12DeviceStructV4name3mac4rssi7payload4uuid9timestamp9longitude8latitudeACSS_SSSiS4SSgALtcfc",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV4name3mac4rssi7payload4uuid9timestamp9longitude8latitudeACSS_SSSiS4SSgALtcfc",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Chorus_SDK12DeviceStructV9hashValueSivp",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV9hashValueSivp",
+            "moduleName": "Chorus_SDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV9hashValueSivg",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV9hashValueSivg",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Chorus_SDK12DeviceStructV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV4hash4intoys6HasherVz_tF",
+            "moduleName": "Chorus_SDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceStruct",
+                "printedName": "Chorus_SDK.DeviceStruct",
+                "usr": "s:10Chorus_SDK12DeviceStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceStruct",
+                "printedName": "Chorus_SDK.DeviceStruct",
+                "usr": "s:10Chorus_SDK12DeviceStructV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Chorus_SDK12DeviceStructV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10Chorus_SDK12DeviceStructV2eeoiySbAC_ACtFZ",
+            "moduleName": "Chorus_SDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Chorus_SDK12DeviceStructV",
+        "mangledName": "$s10Chorus_SDK12DeviceStructV",
+        "moduleName": "Chorus_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chorus_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Chorus_SDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "Chorus_SDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SdkInitializer",
+        "printedName": "SdkInitializer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SdkInitializer",
+                "printedName": "Chorus_SDK.SdkInitializer",
+                "usr": "s:10Chorus_SDK14SdkInitializerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Chorus_SDK14SdkInitializerCACycfc",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerCACycfc",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setOrgId",
+            "printedName": "setOrgId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Chorus_SDK14SdkInitializerC8setOrgIdyySSF",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerC8setOrgIdyySSF",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startBackgroundScanning",
+            "printedName": "startBackgroundScanning(scanForDuration:pauseInterval:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Chorus_SDK14SdkInitializerC23startBackgroundScanning15scanForDuration13pauseIntervalySdSg_AGtF",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerC23startBackgroundScanning15scanForDuration13pauseIntervalySdSg_AGtF",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableBackGroundScanning",
+            "printedName": "disableBackGroundScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Chorus_SDK14SdkInitializerC25disableBackGroundScanningyyF",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerC25disableBackGroundScanningyyF",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDiscoveredDevices",
+            "printedName": "getDiscoveredDevices()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Chorus_SDK.DeviceStruct]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceStruct",
+                    "printedName": "Chorus_SDK.DeviceStruct",
+                    "usr": "s:10Chorus_SDK12DeviceStructV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Chorus_SDK14SdkInitializerC20getDiscoveredDevicesSayAA12DeviceStructVGyF",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerC20getDiscoveredDevicesSayAA12DeviceStructVGyF",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendPayloadToEndpoint",
+            "printedName": "sendPayloadToEndpoint(endPointUrl:metaType:metaVersion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Chorus_SDK14SdkInitializerC21sendPayloadToEndpoint11endPointUrl8metaType0L7VersionySS_SiSStF",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerC21sendPayloadToEndpoint11endPointUrl8metaType0L7VersionySS_SiSStF",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10Chorus_SDK14SdkInitializerC",
+        "mangledName": "$s10Chorus_SDK14SdkInitializerC",
+        "moduleName": "Chorus_SDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "Array",
+      "offset": 247,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 3,
+      "value": "630"
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 512,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 53,
+      "value": "\"https:\/\/api-dev.chorussystems.net\/v1alpha1\/payloads\""
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 10,
+      "value": "\"1.1.12.0\""
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/SdkInitializer.swift",
+      "kind": "StringLiteral",
+      "offset": 1114,
+      "length": 53,
+      "value": "\"https:\/\/api-dev.chorussystems.net\/v1alpha1\/payloads\""
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/SdkInitializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1193,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/SdkInitializer.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 10,
+      "value": "\"1.1.12.0\""
+    }
+  ]
+}
