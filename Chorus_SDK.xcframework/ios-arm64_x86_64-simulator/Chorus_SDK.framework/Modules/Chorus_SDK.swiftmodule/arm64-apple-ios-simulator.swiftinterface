@@ -29,10 +29,11 @@ public struct DeviceStruct : Swift.Identifiable, Swift.Hashable {
 }
 public class SdkInitializer {
   public init()
+  public struct UploadDeviceDataConfig {
+  }
   public func setOrgId(_ id: Swift.String)
-  public func startBackgroundScanning(scanForDuration: Foundation.TimeInterval? = nil, pauseInterval: Foundation.TimeInterval? = nil)
+  public func startBackgroundScanning(scanForDuration: Foundation.TimeInterval? = nil, pauseInterval: Foundation.TimeInterval? = nil, latitude: Swift.String, longitude: Swift.String, uploadDataConfig: Chorus_SDK.SdkInitializer.UploadDeviceDataConfig? = nil)
   public func disableBackGroundScanning()
   public func getDiscoveredDevices() -> [Chorus_SDK.DeviceStruct]
-  public func sendPayloadToEndpoint(endPointUrl: Swift.String = "https://api-dev.chorussystems.net/v1alpha1/payloads", metaType: Swift.Int = 2, metaVersion: Swift.String = "1.1.12.0")
   @objc deinit
 }

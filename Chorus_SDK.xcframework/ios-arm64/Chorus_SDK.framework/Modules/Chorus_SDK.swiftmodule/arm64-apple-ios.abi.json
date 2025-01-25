@@ -856,6 +856,35 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "TypeDecl",
+            "name": "UploadDeviceDataConfig",
+            "printedName": "UploadDeviceDataConfig",
+            "declKind": "Struct",
+            "usr": "s:10Chorus_SDK14SdkInitializerC22UploadDeviceDataConfigV",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerC22UploadDeviceDataConfigV",
+            "moduleName": "Chorus_SDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setOrgId",
             "printedName": "setOrgId(_:)",
@@ -877,14 +906,15 @@
             "mangledName": "$s10Chorus_SDK14SdkInitializerC8setOrgIdyySSF",
             "moduleName": "Chorus_SDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "startBackgroundScanning",
-            "printedName": "startBackgroundScanning(scanForDuration:pauseInterval:)",
+            "printedName": "startBackgroundScanning(scanForDuration:pauseInterval:latitude:longitude:uploadDataConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -920,14 +950,42 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Chorus_SDK.SdkInitializer.UploadDeviceDataConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UploadDeviceDataConfig",
+                    "printedName": "Chorus_SDK.SdkInitializer.UploadDeviceDataConfig",
+                    "usr": "s:10Chorus_SDK14SdkInitializerC22UploadDeviceDataConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Chorus_SDK14SdkInitializerC23startBackgroundScanning15scanForDuration13pauseIntervalySdSg_AGtF",
-            "mangledName": "$s10Chorus_SDK14SdkInitializerC23startBackgroundScanning15scanForDuration13pauseIntervalySdSg_AGtF",
+            "usr": "s:10Chorus_SDK14SdkInitializerC23startBackgroundScanning15scanForDuration13pauseInterval8latitude9longitude16uploadDataConfigySdSg_AJS2SAC012UploadDevicepQ0VSgtF",
+            "mangledName": "$s10Chorus_SDK14SdkInitializerC23startBackgroundScanning15scanForDuration13pauseInterval8latitude9longitude16uploadDataConfigySdSg_AJS2SAC012UploadDevicepQ0VSgtF",
             "moduleName": "Chorus_SDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -947,7 +1005,8 @@
             "mangledName": "$s10Chorus_SDK14SdkInitializerC25disableBackGroundScanningyyF",
             "moduleName": "Chorus_SDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -976,48 +1035,8 @@
             "mangledName": "$s10Chorus_SDK14SdkInitializerC20getDiscoveredDevicesSayAA12DeviceStructVGyF",
             "moduleName": "Chorus_SDK",
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sendPayloadToEndpoint",
-            "printedName": "sendPayloadToEndpoint(endPointUrl:metaType:metaVersion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Chorus_SDK14SdkInitializerC21sendPayloadToEndpoint11endPointUrl8metaType0L7VersionySS_SiSStF",
-            "mangledName": "$s10Chorus_SDK14SdkInitializerC21sendPayloadToEndpoint11endPointUrl8metaType0L7VersionySS_SiSStF",
-            "moduleName": "Chorus_SDK",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -1051,74 +1070,95 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
       "kind": "Array",
-      "offset": 247,
+      "offset": 396,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 350,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 435,
-      "length": 3,
-      "value": "630"
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 53,
+      "value": "\"https:\/\/api-dev.chorussystems.net\/v1alpha1\/payloads\""
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 512,
+      "offset": 489,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 10,
+      "value": "\"1.1.12.0\""
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
+      "length": 38,
+      "value": "\"8EC90001-F315-4F60-9FB8-838830DAEA50\""
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 35,
+      "value": "\"http:\/\/34.231.73.193:8000\/ble\/log\""
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 6,
+      "value": "\"xc37\""
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 701,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
-      "kind": "StringLiteral",
-      "offset": 632,
-      "length": 53,
-      "value": "\"https:\/\/api-dev.chorussystems.net\/v1alpha1\/payloads\""
-    },
-    {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 720,
-      "length": 1,
-      "value": "2"
+      "offset": 724,
+      "length": 3,
+      "value": "630"
     },
     {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 751,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 759,
-      "length": 10,
-      "value": "\"1.1.12.0\""
-    },
-    {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/SdkInitializer.swift",
-      "kind": "StringLiteral",
-      "offset": 1114,
-      "length": 53,
-      "value": "\"https:\/\/api-dev.chorussystems.net\/v1alpha1\/payloads\""
-    },
-    {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/SdkInitializer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1193,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/shashankgupta\/Desktop\/Test-sdk\/test\/Chorus_SDK\/Chorus_SDK\/Sources\/SdkInitializer.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 10,
-      "value": "\"1.1.12.0\""
+      "offset": 778,
+      "length": 34,
+      "value": "\"http:\/\/34.66.72.114:8002\/ble\/log\""
     }
   ]
 }
