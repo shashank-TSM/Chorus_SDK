@@ -9,19 +9,21 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension Chorus_SDK.DeviceStruct : Swift.Equatable {
+  public static func == (lhs: Chorus_SDK.DeviceStruct, rhs: Chorus_SDK.DeviceStruct) -> Swift.Bool
+}
 public struct DeviceStruct : Swift.Identifiable, Swift.Hashable {
   public let id: Foundation.UUID
-  public let name: Swift.String
+  public var name: Swift.String
   public let mac: Swift.String
-  public let rssi: Swift.Int
-  public let payload: Swift.String
+  public var rssi: Swift.Int
+  public var payload: Swift.String
   public var longitude: Swift.String?
   public var latitude: Swift.String?
   public let uuid: Swift.String
-  public let timestamp: Swift.String
+  public var timestamp: Swift.String
   public init(name: Swift.String, mac: Swift.String, rssi: Swift.Int, payload: Swift.String, uuid: Swift.String, timestamp: Swift.String, longitude: Swift.String?, latitude: Swift.String?)
   public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: Chorus_SDK.DeviceStruct, b: Chorus_SDK.DeviceStruct) -> Swift.Bool
   public typealias ID = Foundation.UUID
   public var hashValue: Swift.Int {
     get

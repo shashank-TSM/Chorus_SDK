@@ -102,7 +102,6 @@
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -123,6 +122,48 @@
                 "moduleName": "Chorus_SDK",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV4nameSSvs",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV4nameSSvs",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV4nameSSvM",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV4nameSSvM",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -190,7 +231,6 @@
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -211,6 +251,48 @@
                 "moduleName": "Chorus_SDK",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV4rssiSivs",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV4rssiSivs",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV4rssiSivM",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV4rssiSivM",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -234,7 +316,6 @@
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -255,6 +336,48 @@
                 "moduleName": "Chorus_SDK",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV7payloadSSvs",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV7payloadSSvs",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV7payloadSSvM",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV7payloadSSvM",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -542,7 +665,6 @@
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -563,6 +685,48 @@
                 "moduleName": "Chorus_SDK",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV9timestampSSvs",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV9timestampSSvs",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Chorus_SDK12DeviceStructV9timestampSSvM",
+                "mangledName": "$s10Chorus_SDK12DeviceStructV9timestampSSvM",
+                "moduleName": "Chorus_SDK",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -744,7 +908,10 @@
             "mangledName": "$s10Chorus_SDK12DeviceStructV2eeoiySbAC_ACtFZ",
             "moduleName": "Chorus_SDK",
             "static": true,
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -1070,91 +1237,105 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
       "kind": "Array",
-      "offset": 396,
+      "offset": 418,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "Array",
+      "offset": 464,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 589,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
       "kind": "StringLiteral",
-      "offset": 559,
+      "offset": 627,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/BleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 672,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 53,
       "value": "\"https:\/\/api-dev.chorussystems.net\/v1alpha1\/payloads\""
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 489,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 10,
       "value": "\"1.1.12.0\""
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 555,
       "length": 38,
       "value": "\"8EC90001-F315-4F60-9FB8-838830DAEA50\""
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 35,
       "value": "\"http:\/\/34.231.73.193:8000\/ble\/log\""
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 6,
       "value": "\"xc37\""
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 701,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 724,
       "length": 3,
       "value": "630"
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 751,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tsm\/Desktop\/Chorus_SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
+      "filePath": "\/Users\/tsm\/Desktop\/Chorus App & SDK\/Chorus_SDK\/Chorus_SDK\/Sources\/SDKConfig.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 34,

@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wCA4hzAO13bnIZE4TH99F0YPgRs=
+		25wqMxwiCtbxI4YHwBFFh25A/Fc=
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tfrhlx4O2GNJNxFEGkPqpCQWUqA=
+		KomNzmKoSVEd9d8unYKrwXrpt78=
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tfrhlx4O2GNJNxFEGkPqpCQWUqA=
+		KomNzmKoSVEd9d8unYKrwXrpt78=
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+sXi4EU9hCCi3N8e5VN5eQTnZa8=
+		0wTpVIQl9Fhh9gHOitPQUUpx4tM=
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wCA4hzAO13bnIZE4TH99F0YPgRs=
+		25wqMxwiCtbxI4YHwBFFh25A/Fc=
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		11v96oVKx91FeN59zgyHOj0igoU=
+		VqXB8/nv+cycvEHwPfIXKWMEfa4=
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		11v96oVKx91FeN59zgyHOj0igoU=
+		VqXB8/nv+cycvEHwPfIXKWMEfa4=
 		</data>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gUxHZqhtqdCehSL6zRv0Jhea3EM=
+		cXCBDRbP/LPzGaLQuk+T9b9ScLY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WCgSQOr69Q62qf3HPGYL+7fDGhNqTqj3BCvQ268+2hs=
+			qpuqOtpjnIuD0iwDKiYA/JbXejZZTC/8hLnpavTfHII=
 			</data>
 		</dict>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajnMSGGA4v8k5OmA+tIouz89A2mcWmPjUucOolhKEZM=
+			LBAhr2TPrucZo5ddmjHqALipGmmRoK8Lc23Th5f/P3M=
 			</data>
 		</dict>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajnMSGGA4v8k5OmA+tIouz89A2mcWmPjUucOolhKEZM=
+			LBAhr2TPrucZo5ddmjHqALipGmmRoK8Lc23Th5f/P3M=
 			</data>
 		</dict>
 		<key>Modules/Chorus_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3McBEcclCb/LapnahCijIEVv7sRSnGr4OcV1jmlJp/g=
+			f1+1QYjTP5UxThFP/EkHPSKnEOvfaOv1Yhy5YuRlgig=
 			</data>
 		</dict>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WCgSQOr69Q62qf3HPGYL+7fDGhNqTqj3BCvQ268+2hs=
+			qpuqOtpjnIuD0iwDKiYA/JbXejZZTC/8hLnpavTfHII=
 			</data>
 		</dict>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oxB51ptngAT71HtPISHJcs7eSBFc8dMiO8CdVDrxsYE=
+			PFyOU0ADMdF5joRMTnrxW9SNZyaq5KsyP2NkjEBGYAY=
 			</data>
 		</dict>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oxB51ptngAT71HtPISHJcs7eSBFc8dMiO8CdVDrxsYE=
+			PFyOU0ADMdF5joRMTnrxW9SNZyaq5KsyP2NkjEBGYAY=
 			</data>
 		</dict>
 		<key>Modules/Chorus_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a7Gsushbcp82oQbjQ8orjzzgZ1f0kg6jAOI6S7LWMpM=
+			MFJt1Sgdi/glo6OH1RaU0Tv6sta/nN/Vhy4MCwpPAdg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
