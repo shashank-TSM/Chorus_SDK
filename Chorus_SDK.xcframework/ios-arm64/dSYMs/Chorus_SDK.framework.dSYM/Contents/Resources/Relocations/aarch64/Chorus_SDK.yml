@@ -2,9 +2,9 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/tsm/Library/Developer/Xcode/DerivedData/Chorus_SDK-cdbwnnjiqdqlnkhhsdahutxyjwaf/Build/Intermediates.noindex/ArchiveIntermediates/Chorus_SDK/InstallationBuildProductsLocation/Library/Frameworks/Chorus_SDK.framework/Chorus_SDK'
 relocations:
-  - { offset: 0x5A3F8, size: 0x8, addend: 0x0, symName: _Chorus_SDKVersionString, symObjAddr: 0x0, symBinAddr: 0x13B80, symSize: 0x0 }
-  - { offset: 0x5A42D, size: 0x8, addend: 0x0, symName: _Chorus_SDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x13BB0, symSize: 0x0 }
-  - { offset: 0x5A492, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK10BleManagerC6sharedACvpZ', symObjAddr: 0x3AC50, symBinAddr: 0x1D9F8, symSize: 0x0 }
+  - { offset: 0x5A3F8, size: 0x8, addend: 0x0, symName: _Chorus_SDKVersionString, symObjAddr: 0x0, symBinAddr: 0x13AD0, symSize: 0x0 }
+  - { offset: 0x5A42D, size: 0x8, addend: 0x0, symName: _Chorus_SDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x13B00, symSize: 0x0 }
+  - { offset: 0x5A492, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK10BleManagerC6sharedACvpZ', symObjAddr: 0x3AC50, symBinAddr: 0x1DAE8, symSize: 0x0 }
   - { offset: 0x5AD55, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK10BleManagerC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x2C }
   - { offset: 0x5B37B, size: 0x8, addend: 0x0, symName: '_$sSo7NSTimerCIeghg_ABIeyBhy_TR', symObjAddr: 0x3DE8, symBinAddr: 0x7DE4, symSize: 0x4C }
   - { offset: 0x5B4FE, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK10BleManagerCfETo', symObjAddr: 0x5DCC, symBinAddr: 0x9DC8, symSize: 0xD0 }
@@ -165,7 +165,7 @@ relocations:
   - { offset: 0x65E3F, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12DeviceStructV9hashValueSivg', symObjAddr: 0x7CC, symBinAddr: 0xFE5C, symSize: 0x3C }
   - { offset: 0x65EDC, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12DeviceStructVSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x87C, symBinAddr: 0xFE98, symSize: 0x4 }
   - { offset: 0x65F96, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIeghggg_So6NSDataCSgAGSo7NSErrorCSgIeyBhyyy_TR', symObjAddr: 0x0, symBinAddr: 0x1076C, symSize: 0xC8 }
-  - { offset: 0x65FBA, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12RemoteLoggerC6sharedACvpZ', symObjAddr: 0x6810, symBinAddr: 0x1DA00, symSize: 0x0 }
+  - { offset: 0x65FBA, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12RemoteLoggerC6sharedACvpZ', symObjAddr: 0x6810, symBinAddr: 0x1DAF0, symSize: 0x0 }
   - { offset: 0x66058, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIeghggg_So6NSDataCSgAGSo7NSErrorCSgIeyBhyyy_TR', symObjAddr: 0x0, symBinAddr: 0x1076C, symSize: 0xC8 }
   - { offset: 0x66070, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12RemoteLoggerC6shared_WZ', symObjAddr: 0xC8, symBinAddr: 0x10834, symSize: 0x70 }
   - { offset: 0x6614E, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12RemoteLoggerCMa', symObjAddr: 0x794, symBinAddr: 0x10F00, symSize: 0x20 }
@@ -184,7 +184,7 @@ relocations:
   - { offset: 0x66DB0, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12RemoteLoggerCfD', symObjAddr: 0x744, symBinAddr: 0x10EB0, symSize: 0x50 }
   - { offset: 0x66E6D, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK12RemoteLoggerC16currentTimestamp33_3311D335CC9315F13463F2470B249E3DLLSSyFTf4d_n', symObjAddr: 0xA34, symBinAddr: 0x11160, symSize: 0x12C }
   - { offset: 0x66FA8, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK9SDKConfigVwCP', symObjAddr: 0x0, symBinAddr: 0x115D8, symSize: 0x30 }
-  - { offset: 0x66FCC, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK13defaultConfigAA9SDKConfigVvp', symObjAddr: 0x468, symBinAddr: 0x1D650, symSize: 0x0 }
+  - { offset: 0x66FCC, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK13defaultConfigAA9SDKConfigVvp', symObjAddr: 0x468, symBinAddr: 0x1D740, symSize: 0x0 }
   - { offset: 0x66FE6, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK9SDKConfigVwCP', symObjAddr: 0x0, symBinAddr: 0x115D8, symSize: 0x30 }
   - { offset: 0x66FFA, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK9SDKConfigVwxx', symObjAddr: 0x30, symBinAddr: 0x11608, symSize: 0x48 }
   - { offset: 0x6700E, size: 0x8, addend: 0x0, symName: '_$s10Chorus_SDK9SDKConfigVwcp', symObjAddr: 0x78, symBinAddr: 0x11650, symSize: 0xA4 }

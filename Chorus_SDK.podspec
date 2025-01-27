@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/shashank-TSM/Chorus_SDK"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "shashank-TSM" => "shashank.gupta@stackmentalist.com" }
-  spec.platform     = :ios, "16.0"
+  spec.platform     = :ios, "13.4"
  
   spec.source       = { 
     :git => "git@github.com:shashank-TSM/Chorus_SDK.git", 
